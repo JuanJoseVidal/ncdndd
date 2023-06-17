@@ -13,10 +13,6 @@ This is a repository in regards of the article "Non-Crossing Dual Neural Network
 When datasets present long conditional tails on their response variables, algorithms based on Quantile Regression have been widely used to assess extreme quantile behaviors. Value at Risk (VaR) and Conditional Tail Expectation (CTE) allow the evaluation of extreme events to be easily interpretable. The state-of-the-art methodologies to estimate VaR and CTE controlled by covariates are mainly based on linear quantile regression, and usually do not have in consideration non-crossing conditions across VaRs and their associated CTEs. We implement a non-crossing neural network that estimates both statistics simultaneously, for several quantile levels and ensuring a list of non-crossing conditions. We illustrate our method with a household energy consumption dataset from 2015 for quantile levels 0.9, 0.925, 0.95, 0.975 and 0.99, and show its improvements against a Monotone Composite Quantile Regression Neural Network approximation.
 
 
-## Publication
-Under revision in the journal **Insurance: Mathematics and Economics**.
-
-
 ## How to cite
 Vidal-Llana, X., Salort Sánchez, C., Coia, V., and Guillén, M. (2022). Non-crossing dual neural network: Joint value at risk and conditional tail expectation estimations with non-crossing conditions. Documents de Treball (IREA), 2022(15):1.
 
